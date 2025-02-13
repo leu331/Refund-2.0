@@ -1,10 +1,9 @@
 import {Routes, Route} from "react-router-dom"
 
-import { AuthLayout } from "../components/authLayout"
+import { AuthLayout } from "../components/Layouts/authLayout"
 import { SignIn } from "../pages/SignIn"
 import { SignUp } from "../pages/SignUp"
-import { NotFound } from "../pages/notFound"
-
+import { NotFound } from "../pages/NotFound"
 export function AuthRoutes(){
     return (
         <Routes>
